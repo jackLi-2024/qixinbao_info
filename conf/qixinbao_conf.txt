@@ -6,7 +6,7 @@ regist_num: 1
 
 [browser]
 browser_type: Chrome
-headless: False
+headless: True
 executable_path: None
 timeout: 10
 wait_time: 20
@@ -26,7 +26,7 @@ order: ./data/nike/20190418/order_defeat.txt
 
 
 [url]
-product: ["https://www.nike.com/cn/launch/t/air-max-98-white-teal/"]
+product: ["https://www.qixin.com/auth/regist"]
 setting: https://www.nike.com/cn/zh_cn/p/settings
 order: https://www.nike.com/cn/member/inbox
 
@@ -35,7 +35,7 @@ size: ["39"]
 
 
 [data]
-log: ./data/nike/
+log: ./data/qixinbao/
 
 [address]
 firstname: li

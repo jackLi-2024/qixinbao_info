@@ -80,7 +80,7 @@ class Qxb(object):
             self.browser.wait_for_element_loaded("user-name", By.CLASS_NAME)
 
             result = {"username": self.username, "password": self.password, "url": url,
-                      "msg": "regist successfully"}
+                      "msg": "regist successfully", "Cookie": self.browser.browser.get_cookies()}
             return normal_result(result)
         except Exception as e:
             result = {"username": self.username, "password": self.password, "url": url,
