@@ -1,0 +1,63 @@
+[master]
+work_num: 1
+process_name: name
+regist_num: 1
+
+
+[browser]
+browser_type: Chrome
+headless: False
+executable_path: None
+timeout: 10
+wait_time: 20
+proxies_file: ./lib/proxy.py
+
+
+[logging]
+log_file: nike
+
+
+[user]
+login: ./conf/nike_user.txt
+address: ./conf/nike_user.txt
+buy: ./conf/nike_user.txt
+# order: ./conf/nike_user.txt
+order: ./data/nike/20190418/order_defeat.txt
+
+
+[url]
+product: ["https://www.nike.com/cn/launch/t/air-max-98-white-teal/"]
+setting: https://www.nike.com/cn/zh_cn/p/settings
+order: https://www.nike.com/cn/member/inbox
+
+[size]
+size: ["39"]
+
+
+[data]
+log: ./data/nike/
+
+[address]
+firstname: li
+lastname: jiacai
+province: 黑龙江省
+city: 绥化市
+district: 安达市
+addressinfo: 详细地址
+phone: 18404983790
+
+[regist]
+firstname: Lee
+lastname: Jack
+
+
+[email]
+email_smtpserver: smtp.qq.com
+email_port: 465
+email_sender: 546501664@qq.com
+email_password: agixaxvdxwupbcjb
+email_receiver: ["1050518702@qq.com"]
+email_subject: SNKRS订单
+
+
+
