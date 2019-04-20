@@ -1,13 +1,13 @@
 [master]
 work_num: 1
 process_name: name
-regist_num: 1
+regist_num: 900
 
 
 [browser]
-browser_type: Chrome
+browser_type: Remote-Chrome
 headless: True
-executable_path: None
+executable_path: http://167.179.97.68:4444/wd/hub
 timeout: 10
 wait_time: 20
 proxies_file: ./lib/proxy.py
